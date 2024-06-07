@@ -1,13 +1,13 @@
-import { Result } from "./components/Result"
-import { Achievement } from "./components/Achievement"
-import Header from "./components/Header"
-import { Hero } from "./components/Hero"
-import { Experience } from "./components/Experience"
-import { Pricing } from "./components/Pricing"
-import React from "react"
-import { DisplaySlider } from "./components/DisplaySlider"
-import { FormData } from "./components/FormData"
-import { Footer } from "./components/Footer"
+import { Result } from "./components/Result";
+import { Achievement } from "./components/Achievement";
+import Header from "./components/Header";
+import { Hero } from "./components/Hero";
+import { Experience } from "./components/Experience";
+import { Pricing } from "./components/Pricing";
+import React from "react";
+
+import { FormData } from "./components/FormData";
+import { Footer } from "./components/Footer";
 function App() {
   return (
     <div>
@@ -31,9 +31,7 @@ function App() {
         <section id="pricing">
           <Pricing />
         </section>
-        <section id="slide">
-          <DisplaySlider />
-        </section>
+
         <section id="form">
           <FormData />
         </section>
@@ -42,7 +40,7 @@ function App() {
         <Footer />
       </footer>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
